@@ -1,4 +1,4 @@
-nav li{
+nav > li{
     list-style: none;
     display: inline;
     padding: 0 10px;
@@ -11,4 +11,14 @@ nav li:hover{
 nav li a{
     text-decoration: none;
     color: black;
+}
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightcyan;
+}
+
+nav li:hover .dropdown{
+    display: block;
 }
